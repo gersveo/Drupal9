@@ -1,0 +1,6 @@
+name: house-builder
+recipe: pantheon
+config:
+  framework: drupal8
+  site: house-builder
+  id: 49d9ff71-8cc0-4eb4-8751-87825e4e7aef
