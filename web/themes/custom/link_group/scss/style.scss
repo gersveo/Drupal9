@@ -74,6 +74,20 @@ a {
 				position: absolute;
 				right: 0;
 			}
+
+			nav#block-link-group-main-menu {
+				ul.navbar-nav {
+					@include bp('sm3') {
+						width: 100%;
+						display: inline-block;
+						min-width: 450px;
+
+						li.nav-item {
+							display: inline-block;
+						}
+					}
+				}
+			}
 		}
 	}
 }

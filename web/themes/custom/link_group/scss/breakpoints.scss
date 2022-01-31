@@ -29,6 +29,11 @@
       @content;
     }
   }
+  @if $point == sm3 {
+    @media (min-width: map-get($breakpoints , small3)) {
+      @content;
+    }
+  }
   @if $point == md {
     @media (min-width: map-get($breakpoints , medium)) {
       @content;
