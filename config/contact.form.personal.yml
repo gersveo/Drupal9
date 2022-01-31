@@ -1,0 +1,13 @@
+uuid: 200ff207-e785-4c5b-b970-28725716e1d2
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jonvgt3CkUM2eMLTFwWfHileWWDC4YtXCuIlCahTk_I
+id: personal
+label: 'Formulario de contacto personal'
+recipients: {  }
+reply: ''
+weight: 0
+message: Gracias.
+redirect: ''

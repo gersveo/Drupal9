@@ -1,0 +1,22 @@
+uuid: 23a5f821-7c08-4a18-bbdb-e2b08adbea5c
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - link_group
+_core:
+  default_config_hash: I6Esh8cDlPdl2POZg4MOSRUrQNYA1UNCJCxL2yqT_wc
+id: link_group_powered
+theme: link_group
+region: footer_fifth
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Funciona con Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

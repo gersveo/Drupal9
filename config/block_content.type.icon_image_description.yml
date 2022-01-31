@@ -1,0 +1,8 @@
+uuid: fe577b93-7874-476b-928f-7f0e8c005d1c
+langcode: es
+status: true
+dependencies: {  }
+id: icon_image_description
+label: 'Icon - Description'
+revision: 0
+description: 'Bloque sencillo con icono y una corta descripción'

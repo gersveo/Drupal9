@@ -1,0 +1,22 @@
+uuid: e3e7a4e0-2861-486c-9e5a-a27bfa6ce3e5
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - link_group
+_core:
+  default_config_hash: KC12e0aosUnBBs5bd374JVcQjJaFNOSIHzu0dUGf22o
+id: link_group_messages
+theme: link_group
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Mensajes de estado'
+  label_display: '0'
+  provider: system
+visibility: {  }

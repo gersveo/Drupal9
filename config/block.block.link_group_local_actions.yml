@@ -1,0 +1,20 @@
+uuid: 60585823-5a76-46e3-a449-87a439168d1d
+langcode: es
+status: true
+dependencies:
+  theme:
+    - link_group
+_core:
+  default_config_hash: XRdb8LpbArVA6CpuuEZxzi50JIdjsJaCCZ5o3fH0Blk
+id: link_group_local_actions
+theme: link_group
+region: content
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Acciones principales de la administración'
+  label_display: '0'
+  provider: core
+visibility: {  }

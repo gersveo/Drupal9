@@ -1,0 +1,44 @@
+uuid: cae57a46-5cd6-4a03-802e-9fa7d4d5b868
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.slide
+    - field.field.node.proyecto.body
+    - field.field.node.proyecto.field_ciudad
+    - field.field.node.proyecto.field_fotos
+    - node.type.proyecto
+  module:
+    - magnific_popup
+    - user
+id: node.proyecto.slide
+targetEntityType: node
+bundle: proyecto
+mode: slide
+content:
+  field_ciudad:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_fotos:
+    type: magnific_popup
+    label: hidden
+    settings:
+      thumbnail_image_style: slick_media
+      popup_image_style: ''
+      gallery_type: first_item
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  body: true
+  langcode: true

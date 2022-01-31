@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: es
+uuid: 0404b8a8-dfc9-4ae1-a578-19e2b1b1274f
+name: ConstruCasa
+mail: gersveo@hotmail.com
+slogan: 'Déjanos construir tu casa feliz'
+page:
+  403: ''
+  404: ''
+  front: /home
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: es

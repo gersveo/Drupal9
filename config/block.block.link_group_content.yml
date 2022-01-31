@@ -1,0 +1,22 @@
+uuid: 49db93c3-1bc0-410a-aabf-8a984a0013c9
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - link_group
+_core:
+  default_config_hash: kigu8pTxXt1qGR2NJ5HHdC4G2G1wsDrIjLPKBT5wUBc
+id: link_group_content
+theme: link_group
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenido principal de la página'
+  label_display: '0'
+  provider: system
+visibility: {  }

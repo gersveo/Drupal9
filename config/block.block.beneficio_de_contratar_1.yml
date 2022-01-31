@@ -1,0 +1,30 @@
+uuid: ffa59d41-7588-4cba-93ad-13f2d9f6539e
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:icon_image_description:a42a3c41-397b-46e6-b149-708dd9493713'
+  module:
+    - block_content
+    - system
+  theme:
+    - link_group
+id: beneficio_de_contratar_1
+theme: link_group
+region: featured_bottom_second
+weight: 0
+provider: null
+plugin: 'block_content:a42a3c41-397b-46e6-b149-708dd9493713'
+settings:
+  id: 'block_content:a42a3c41-397b-46e6-b149-708dd9493713'
+  label: 'Beneficio de Contratar 1'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

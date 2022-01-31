@@ -1,0 +1,30 @@
+uuid: 81d2f02d-69f9-4ab2-bd8f-2c11593dc948
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:icon_image_description:4982c24f-b71a-4e43-bd3e-b11fe5a6bb78'
+  module:
+    - block_content
+    - system
+  theme:
+    - link_group
+id: porquecontratarroller
+theme: link_group
+region: featured_bottom_second
+weight: 0
+provider: null
+plugin: 'block_content:4982c24f-b71a-4e43-bd3e-b11fe5a6bb78'
+settings:
+  id: 'block_content:4982c24f-b71a-4e43-bd3e-b11fe5a6bb78'
+  label: 'Por qué contratar - Roller'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

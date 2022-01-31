@@ -1,0 +1,16 @@
+palette:
+  top: '#4c1c58'
+  bottom: '#593662'
+  bg: '#fffdf7'
+  sidebar: '#edede7'
+  sidebarborders: '#e7e7e7'
+  footer: '#2c2c28'
+  button: '#9d408d'
+  buttonhover: '#77316b'
+  titleslogan: '#ffffff'
+  text: '#301313'
+  link: '#9d408d'
+logo: 'public://color/link_group-8eee0931/logo.svg'
+stylesheets: {  }
+files:
+  - 'public://color/link_group-8eee0931/logo.svg'

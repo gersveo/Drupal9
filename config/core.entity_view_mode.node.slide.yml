@@ -1,0 +1,10 @@
+uuid: b6e29867-2e3d-49c4-847e-3ad08f17685f
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.slide
+label: 'Image Popup Slide'
+targetEntityType: node
+cache: true

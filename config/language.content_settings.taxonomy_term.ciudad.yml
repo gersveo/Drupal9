@@ -1,0 +1,11 @@
+uuid: 19543c55-82ae-4de6-85e8-a83c28742c75
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.ciudad
+id: taxonomy_term.ciudad
+target_entity_type_id: taxonomy_term
+target_bundle: ciudad
+default_langcode: site_default
+language_alterable: false

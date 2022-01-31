@@ -1,0 +1,29 @@
+uuid: b6cb031d-7bd0-436a-b3a9-66d5386c1ea4
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ciudad
+    - node.type.proyecto
+    - taxonomy.vocabulary.ciudad
+id: node.proyecto.field_ciudad
+field_name: field_ciudad
+entity_type: node
+bundle: proyecto
+label: Ciudad
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ciudad: ciudad
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

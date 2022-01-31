@@ -1,0 +1,30 @@
+uuid: 8f5d047d-7650-4ef1-9ad2-3868e3607ada
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:icon_image_description:12d0370b-973c-495a-a1e7-defd7ac2ea87'
+  module:
+    - block_content
+    - system
+  theme:
+    - link_group
+id: porquecontratarhardhad
+theme: link_group
+region: featured_bottom_second
+weight: 0
+provider: null
+plugin: 'block_content:12d0370b-973c-495a-a1e7-defd7ac2ea87'
+settings:
+  id: 'block_content:12d0370b-973c-495a-a1e7-defd7ac2ea87'
+  label: 'Por qué contratar - hard-had'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

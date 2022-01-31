@@ -1,0 +1,20 @@
+uuid: 1580dfd2-c086-47a8-b6ca-ebc3e206f19f
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_ciudad
+field_name: field_ciudad
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

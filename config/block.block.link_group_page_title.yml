@@ -1,0 +1,26 @@
+uuid: 57c5c9ef-59fd-417c-b942-97bda8e2964c
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - link_group
+_core:
+  default_config_hash: ItFhhiUOoeR7oIq73ZaCV7PAYrOwXZ-9fazMzF5DJXM
+id: link_group_page_title
+theme: link_group
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Título de la página'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'
