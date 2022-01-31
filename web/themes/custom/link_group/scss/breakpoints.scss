@@ -1,0 +1,89 @@
+@mixin bp($point) {
+  @if $point == xs {
+    @media (min-width: map-get($breakpoints , x-small)) {
+      @content;
+    }
+  }
+  @if $point == xs2 {
+    @media (min-width: map-get($breakpoints , x-small2)) {
+      @content;
+    }
+  }
+  @if $point == xs3 {
+    @media (min-width: map-get($breakpoints , x-small3)) {
+      @content;
+    }
+  }
+  @if $point == xs4 {
+    @media (min-width: map-get($breakpoints , x-small4)) {
+      @content;
+    }
+  }
+  @if $point == sm {
+    @media (min-width: map-get($breakpoints , small)) {
+      @content;
+    }
+  }
+  @if $point == sm2 {
+    @media (min-width: map-get($breakpoints , small2)) {
+      @content;
+    }
+  }
+  @if $point == md {
+    @media (min-width: map-get($breakpoints , medium)) {
+      @content;
+    }
+  }
+  @if $point == md2 {
+    @media (min-width: map-get($breakpoints , medium2)) {
+      @content;
+    }
+  }
+  @if $point == md3 {
+    @media (min-width: map-get($breakpoints , medium3)) {
+      @content;
+    }
+  }
+  @if $point == lg {
+    @media (min-width: map-get($breakpoints , large)) {
+      @content;
+    }
+  }
+  @if $point == lg2 {
+    @media (min-width: map-get($breakpoints , large2)) {
+      @content;
+    }
+  }
+  @if $point == lg3 {
+    @media (min-width: map-get($breakpoints , large3)) {
+      @content;
+    }
+  }
+  @if $point == xl {
+    @media (min-width: map-get($breakpoints , x-large)) {
+      @content;
+    }
+  }
+}
+
+@mixin media-breakpoint-down ($name) {
+  $max: map-get($breakpoints, $name);
+  @if $max {
+    @media (max-width: $max) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
+
+@mixin media-breakpoint-up ($name) {
+  $min: map-get($breakpoints, $name);
+  @if $min {
+    @media (min-width: $min) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}

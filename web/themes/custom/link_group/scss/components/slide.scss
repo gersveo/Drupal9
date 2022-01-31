@@ -1,0 +1,57 @@
+.view-main-slide-home {
+  .slick {
+    > .slick-slider {
+      margin: 0;
+
+      .slick-list {
+        .slick-track {
+          .slide {
+            .slide__content {
+              .slide__caption {
+                top: 70%;
+                padding: 1.25rem;
+                background-color: rgba(0,0,0,0.5);
+
+                .slide__title,
+                .slide__description,
+                a {
+                  color: $white;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      ul.slick-dots {
+        margin-bottom: 1.875rem;
+
+        li {
+          button {
+            &::before {
+              text-shadow: 0px 0px 10px #fff;
+              opacity: .25;
+            }
+          }
+          button.slick-active {
+            &::before {
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+
+    nav.slick__arrow {
+      button {
+        &.slick-arrow {
+          margin: 1.25rem;
+
+          &::before {
+            color: $primary-dark;
+          }
+        }
+      }
+    }
+  }
+}
