@@ -1,4 +1,4 @@
-/* 
+/*
 Theme Name: Bootstrap 4 Sass
 Description: Bootstrap 4 with Sass
 */
@@ -14,7 +14,7 @@ body {
 }
 
 
-/* COLORS 
+/* COLORS
 --------------------------------------------------*/
 
 a {
@@ -57,4 +57,23 @@ a {
 
 .slick>div {
     margin: 0 15px;
+}
+
+#page {
+	header.header {
+		nav#navbar-main {
+
+			section.region-header {
+				a.navbar-brand
+					span {
+						display: none !important;
+					}
+			}
+
+			button.navbar-toggler {
+				position: absolute;
+				right: 0;
+			}
+		}
+	}
 }

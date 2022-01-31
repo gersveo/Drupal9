@@ -1,0 +1,104 @@
+.path-frontpage {
+  #block-views-block-slide-block-1--2 {
+    padding-top: 1rem;
+    margin: 1rem 0;
+    padding-bottom: 1rem;
+
+    .item-list {
+      ul {
+        li.grid {
+          border: 0;
+
+          article {
+            color: $white;
+
+            header {
+              padding: 1rem;
+              margin-bottom: -17px;
+              color: $thid-dark;
+              width: 100%;
+              background: $primary-dark;
+              font-weight: bold;
+
+              a {
+                color: $thid-dark;
+              }
+            }
+
+            .field--name-field-ciudad {
+              position: absolute;
+              padding: 0.35rem;
+              margin: 0;
+              bottom: 0;
+              right: 0;
+              color: $white;
+              background-color: $thid-dark;
+
+              a {
+                color: $white;
+                font-weight: bold;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    ul.pager {
+      margin: 0;
+      padding: 0;
+
+      li {
+        list-style: none;
+        text-align: center;
+        background-color: $primary-shade;
+
+        a {
+          display: block;
+          padding: 1rem;
+          color: $thid-dark;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .featured-bottom {
+    background-color: $gray-200;
+
+    section.region-featured-bottom-second {
+      padding: 1rem;
+
+      #block-beneficio-de-contratar-1,
+      #block-beneficio-de-contratar-2,
+      #block-porquecontratarroller,
+      #block-porquecontratarhardhad {
+        padding: 0.35rem;
+
+        .content {
+          background-color: $white;
+          padding: 2rem 1rem;
+          min-height: 20rem;
+
+          .field--name-field-icon {
+            text-align: center;
+            padding-bottom: 3rem;
+            color: $thid-light;
+          }
+        }
+
+        @include bp('xs4') {
+          width: 50%;
+          max-width: 50%;
+          display: inline-block;
+        }
+      }
+    }
+
+    section.region-featured-bottom-third {
+      padding: 2rem;
+      background: $white;
+      margin: 0 0.75rem;
+    }
+  }
+}

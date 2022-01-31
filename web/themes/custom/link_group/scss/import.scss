@@ -3,6 +3,8 @@
 //@import url(font-awesome.min.css);
 // variables
 @import "variables";
+// Breakpoints mixin
+@import "breakpoints";
 // typography
 @import "typography";
 //bootstrap
@@ -17,7 +19,5 @@
 @import "barrio";
 
 // components
-@import 'components/slide.scss';
-
-// Breakpoints mixin
-@import "breakpoints";
+@import 'components/slide';
+@import 'components/home';
