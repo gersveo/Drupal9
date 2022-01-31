@@ -9,6 +9,10 @@
             "url": "https://packages.drupal.org/8"
         },
         {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+        {
             "type": "path",
             "url": "upstream-configuration"
         }
@@ -20,8 +24,20 @@
         "drupal/bootstrap_barrio": "^5.5",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-recommended": "^9.2",
+        "drupal/cshs": "^3.5",
         "drupal/ctools": "^3.7",
+        "drupal/fontawesome": "^2.19",
+        "drupal/magnific_popup": "^1.5",
+        "drupal/slick": "^2.4",
+        "drupal/slick_views": "^2.6",
+        "drupal/views_infinite_scroll": "^2.0",
+        "drupal/webform": "^6.1",
         "drush/drush": "^10",
+        "npm-asset/blazy": "^1.8",
+        "npm-asset/magnific-popup": "^1.1",
+        "npm-asset/slick-carousel": "1.8.0",
+        "npm-asset/splidejs--splide": "^3",
+        "oomphinc/composer-installers-extender": "^2.0",
         "pantheon-systems/drupal-integrations": "^9",
         "pantheon-upstreams/upstream-configuration": "self.version"
     },
@@ -47,9 +63,17 @@
                 "[project-root]/.gitattributes": false
             }
         },
+        "installer-types": [
+            "bower-asset",
+            "npm-asset"
+        ],
         "installer-paths": {
             "web/core": ["type:drupal-core"],
-            "web/libraries/{$name}": ["type:drupal-library"],
+            "web/libraries/{$name}": [
+                "type:drupal-library",
+                "type:bower-asset",
+                "type:npm-asset"
+            ],
             "web/modules/contrib/{$name}": ["type:drupal-module"],
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
@@ -74,7 +98,8 @@
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "composer/installers": true,
             "cweagans/composer-patches": true,
-            "drupal/core-composer-scaffold": true
+            "drupal/core-composer-scaffold": true,
+            "oomphinc/composer-installers-extender": true
         }
     }
 }
