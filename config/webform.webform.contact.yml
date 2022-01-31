@@ -51,7 +51,6 @@ elements: |-
   departamento_ciudad:
     '#type': webform_term_select
     '#title': 'Departamento y ciudad'
-    '#select2': true
     '#vocabulary': ciudad
     '#breadcrumb_delimiter': ''
     '#tree_delimiter': ' - '
